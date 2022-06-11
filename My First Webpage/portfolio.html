@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!---->
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="Portfolio.css" />
+  </head>
+  <body>
+    <label for="logo" class="logo">Portfolio</label>
+
+    <h1>Visual Novel prototype:</h1>
+
+    <!-- container for Screenshots from prototypes -->
+    <div class="screenshot-container">
+      <!-- Full-width images with number and caption text -->
+
+      <div class="myScreenshots fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="Images/Screenshot (3).png" style="width: 100%" />
+        <div class="text">Screenshot 1</div>
+      </div>
+
+      <div class="myScreenshots fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="Images/Screenshot (4).png" style="width: 100%" />
+        <div class="text">Screenshot 2</div>
+      </div>
+
+      <div class="myScreenshots fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="Images/Screenshot (5).png" style="width: 100%" />
+        <div class="text">Screenshot 3</div>
+      </div>
+
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br />
+
+    <!-- The dots/circles -->
+    <div style="text-align: center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+      <span class="dot" onclick="currentSlide(4)"></span>
+    </div>
+    <p>
+      These are screenshots from a visual novel prototype I worked on In 2021.
+      The story's theme was support: In the visual novel you play as a charcter
+      who has just endured a season ending career ending an now has to take on
+      the challenge of asking for support/help(whihc is something athletes dont
+      often do due to having a winning and independent mindset) during her road
+      to full recovery.
+    </p>
+
+    <h1>2D PLATFORMER PROTOTYPE:</h1>
+    <img src="Images/Screenshot (8).png" style="width: 50%" />
+    <p>
+      This is a screenshot from a 2d platformer prototype i worked on in 2021.
+      The goal of the game was to save the cherry king before the cupcake cheif
+      took over the kingdom.
+    </p>
+    <a href="/index.html">Homepage</a>
+    <script src="PortfolioPage.js"></script>
+  </body>
+</html>
